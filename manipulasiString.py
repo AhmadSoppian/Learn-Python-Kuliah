@@ -62,3 +62,13 @@ print(Name_find) # 10
 # len untuk menghitung banyaknya karakter
 Name_len = Name.__len__()
 print(Name_len)
+
+# escape karakter adalah karakter khusus dalam string
+# \n (new line)
+# \t (Tab)
+# \ (backslash)
+
+nama = "ahmad"
+umur = 25
+kampus = "bina sarana informatika"
+print(f"halo nama saya :\t {nama}, umur saya:\t {umur}, saya kulliah di:\t {kampus}")

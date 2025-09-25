@@ -93,3 +93,13 @@ print(x) # 10
 x = 10
 x **= 2
 print(x) # 10
+
+# operator memiliki urutan prioritas (precendence). Operator dengan prioritas lebih tinggi akan dieksekusi terlebih dahulu 
+# urutan prioritas (dari tinggi ke rendah)
+# - ** (pangkat)
+# - *.//./.% (perkalian dan pembagian)
+# - +.- (penjumlahan, pengurangan)
+# - ==. !=. <. >. <=. >= (perbandingan)
+# - not (logika not)
+# - and (logika and)
+# - or (logika or)
